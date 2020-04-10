@@ -1,0 +1,16 @@
+$font-family: 'Kontona', Arial, sans-serif;
+
+$orange: #ff5500;
+$gray: #bfbfbf;
+$gray-dark: #292929;
+$gray-light: #dddddd;
+
+@mixin text($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+%center {
+  max-width: 1140px;
+  margin: 0 auto;
+}

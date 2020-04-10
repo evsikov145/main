@@ -1,0 +1,34 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  @include text(24px, 400);
+}
+
+h1 {
+  @include text(100px, 700);
+  margin-bottom: 40px;
+}
+
+h2 {
+  @include text(60px, 700);
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  @include text(48px, 400);
+  margin-bottom: 40px;
+}
+
+h4 {
+  @include text(36px, 400);
+  margin-bottom: 25px;
+}
+p {
+  margin-bottom: 15px;
+}
